@@ -1,5 +1,5 @@
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 pnmixer &
-feh --bg-scale /usr/share/backgrounds/archlinux/archlinux-simplyblack.png
+$HOME/.fehbg
 #exec fluxbox
 exec i3

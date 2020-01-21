@@ -13,6 +13,7 @@ modules-left = logo i3
 separator = ${lorecast162-general.separator}
 bottom = false
 radius = ${lorecast162-general.radius}
+tray-position = left
 
 [bar/bottom]
 font-0 = ${lorecast162-general.font-0}

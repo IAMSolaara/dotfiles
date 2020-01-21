@@ -3,7 +3,7 @@
 *.cursorColor:		#DDDDDD
 
 URxvt.depth:		24
-URxvt.font: xft:MesloLGS NF:pixelsize=12
+URxvt.font: xft:MesloLGS Nerd Font:pixelsize=12,xft:Noto Color Emoji:pixelsize=12
 URxvt.transparent:	true
 URxvt.shading:		20
 URxvt.scrollColor:	#FF00FF
