@@ -110,7 +110,8 @@ format-stopped = ${self.format-online}
 
 format-offline = <label-offline>
 
-label-offline = mpd offline
+label-offline = mpd offline!
+label-offline-foreground = #FF0000
 
 icon-play = 
 icon-toggle = 懶
