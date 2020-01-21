@@ -1,0 +1,15 @@
+*.background:		#222222
+*.foreground:		#FFFFFF
+*.cursorColor:		#DDDDDD
+
+URxvt.depth:		24
+URxvt.font: xft:MesloLGS NF:pixelsize=12
+URxvt.transparent:	true
+URxvt.shading:		20
+URxvt.scrollColor:	#FF00FF
+URxvt.scrollBar:	false
+URxvt.scrollBar_right:	false
+!URxvt.background:	[25]#222222
+!URxvt.background:	rgba:2200/2200/2200/6600
+!URxvt.tintColor:	#FF00FF
+
