@@ -1,0 +1,22 @@
+{
+	"link" : {
+		"vim/.vimrc" : "~/.vimrc",
+		"vim/.gvimrc" : "~/.gvimrc",
+		"mpd" : "~/.config/mpd",
+		"picom" : "~/.config/picom",
+		"compton/compton.conf" : "~/.config/compton.conf",
+		"timidity" : "~/.config/timidity",
+		"ranger" : "~/.config/ranger",
+		"gtk-3.0" : "~/.config/gtk-3.0",
+		"gtk-2.0" : "~/.config/gtk-2.0",
+		"polybar" : "~/.config/polybar",
+		"i3" : "~/.config/i3",
+		"X11/.fehbg" : "~/.fehbg",
+		"X11/.xinitrc" : "~/.xinitrc",
+		"X11/.Xresources" : "~/.Xresources",
+		"xsettingsd/.xsettingsd" : "~/.xsettingsd",
+		"zsh/.zshrc" : "~/.zshrc",
+		"tmux/.tmux.conf" : "~/.tmux.conf",
+		"screen/.screenrc" : "~/.screenrc"
+	}
+}
