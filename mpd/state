@@ -1,7 +1,7 @@
 sw_volume: 99
 audio_device_state:1:My Pulse Output
 state: stop
-current: 10
+current: 0
 random: 0
 repeat: 0
 single: 0
@@ -10,35 +10,5 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:DOOM OST/01. I. Dogma.mp3
-1:DOOM OST/02. Rip & Tear.mp3
-2:DOOM OST/03. At Doom's Gate.mp3
-3:DOOM OST/04. Rust, Dust & Guts.mp3
-4:DOOM OST/05. II. Demigod.mp3
-5:DOOM OST/06. Hellwalker.mp3
-6:DOOM OST/07. Authorization; Olivia Pierce.mp3
-7:DOOM OST/08. Flesh & Metal.mp3
-8:DOOM OST/09. Impure Spectrum.mp3
-9:DOOM OST/10. Ties That Bind.mp3
-10:DOOM OST/11. Bfg Division.mp3
-11:DOOM OST/12. Residual.mp3
-12:DOOM OST/13. Argent Energy.mp3
-13:DOOM OST/14. Harbinger.mp3
-14:DOOM OST/15. Biowaves.mp3
-15:DOOM OST/16. Olivia's Doom (Chad Mossholder Remix).mp3
-16:DOOM OST/17. Transistor Fist.mp3
-17:DOOM OST/18. Dr. Samuel Hayden.mp3
-18:DOOM OST/19. Cyberdemon.mp3
-19:DOOM OST/20. Incantation.mp3
-20:DOOM OST/21. III. Dakhma.mp3
-21:DOOM OST/22. Damnation.mp3
-22:DOOM OST/23. The Stench.mp3
-23:DOOM OST/24. Uac Report File; Shto36u3.mp3
-24:DOOM OST/25. Death & Exhale.mp3
-25:DOOM OST/26. SkullHacker.mp3
-26:DOOM OST/27. Lazarus Waves.mp3
-27:DOOM OST/28. Vega Core.mp3
-28:DOOM OST/29. 6_idkill.Vega.Cih  (feat. Chris Hite).mp3
-29:DOOM OST/30. Mastermind.mp3
-30:DOOM OST/31. IV. Doom.mp3
+0:bfgdivision.mp3
 playlist_end

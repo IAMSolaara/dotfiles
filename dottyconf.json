@@ -16,6 +16,7 @@
 		"X11/.Xresources" : "~/.Xresources",
 		"xsettingsd/.xsettingsd" : "~/.xsettingsd",
 		"zsh/.zshrc" : "~/.zshrc",
+		"zsh/.zprofile" : "~/.zprofile",
 		"tmux/.tmux.conf" : "~/.tmux.conf",
 		"screen/.screenrc" : "~/.screenrc"
 	}
