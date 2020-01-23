@@ -184,7 +184,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id $HOME/.config/i3/monitors.sh
 
 #Start picom --lorecast162d
-#exec --no-startup-id compton --config $HOME/.config/compton.conf
+exec --no-startup-id picom --config $HOME/.config/compton.conf
 
 #Start polybar --lorecast162
 exec_always --no-startup-id $HOME/.config/polybar/polybar.sh

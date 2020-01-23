@@ -2,14 +2,11 @@
 *.foreground:		#FFFFFF
 *.cursorColor:		#DDDDDD
 
-URxvt.depth:		24
+URxvt.depth:		32
 URxvt.font: xft:MesloLGS Nerd Font:pixelsize=12,xft:Noto Color Emoji:pixelsize=12
-URxvt.transparent:	true
-URxvt.shading:		20
+!URxvt.transparent:	true
+!URxvt.shading:		20
 URxvt.scrollColor:	#FF00FF
 URxvt.scrollBar:	false
 URxvt.scrollBar_right:	false
-!URxvt.background:	[25]#222222
-!URxvt.background:	rgba:2200/2200/2200/6600
-!URxvt.tintColor:	#FF00FF
-
+URxvt.background:	rgba:0000/0000/0000/e500

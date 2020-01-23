@@ -80,7 +80,7 @@ label-connected = : UP (%local_ip%) %linkspeed%
 
 [module/wireless-network]
 type = internal/network
-interface = wlan0
+interface = wifi0
 label-disconnected-foreground = #FF1111
 label-disconnected = 睊: DOWN
 label-connected-foreground = #11FF11
