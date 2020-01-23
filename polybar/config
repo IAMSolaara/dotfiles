@@ -1,7 +1,7 @@
 [lorecast162-general]
 width = 90%
 offset-x = 5%
-radius = 0.9
+radius = 0.5
 separator = |
 font-0 = "MesloLGS Nerd Font:size=13;0"
 
@@ -22,10 +22,27 @@ modules-center = mpd-center
 modules-right = mpd-right
 separator = ${lorecast162-general.separator}
 bottom = true
+radius = ${lorecast162-general.radius}
+
+#[module/logo]
+#type = custom/text
+#content = 
 
 [module/logo]
-type = custom/text
-content = 
+type = custom/menu
+
+menu-0-0 = Chromium
+menu-0-0-exec = chromium &
+menu-0-1 = Power
+menu-0-1-exec = menu-open-1
+
+menu-1-0 = Shutdown
+menu-1-0-exec = poweroff
+menu-1-1 = Reboot
+menu-1-1-exec = reboot
+
+label-open = 
+label-separator = |
 
 [module/date]
 type = internal/date
