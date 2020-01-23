@@ -85,6 +85,7 @@ label-disconnected-foreground = #FF1111
 label-disconnected = 睊: DOWN
 label-connected-foreground = #11FF11
 label-connected = 直: %local_ip% on %essid%
+unknown-as-up: true
 
 [module/alsa]
 type = internal/alsa
