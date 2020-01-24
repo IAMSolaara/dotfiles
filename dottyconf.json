@@ -12,6 +12,7 @@
 		"gtk-2.0" : "~/.config/gtk-2.0",
 		"polybar" : "~/.config/polybar",
 		"i3" : "~/.config/i3",
+		"cava" : "~/.config/cava",
 		"X11/.fehbg" : "~/.fehbg",
 		"X11/.xinitrc" : "~/.xinitrc",
 		"X11/.Xresources" : "~/.Xresources",
