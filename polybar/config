@@ -8,7 +8,7 @@ font-0 = "MesloLGS Nerd Font:size=13;0"
 [bar/top]
 font-0 = ${lorecast162-general.font-0}
 modules-right = fs wired-network wireless-network alsa
-modules-center = date
+modules-center = date test
 modules-left = logo i3
 separator = ${lorecast162-general.separator}
 bottom = false
@@ -23,6 +23,10 @@ modules-right = mpd-right
 separator = ${lorecast162-general.separator}
 bottom = true
 radius = ${lorecast162-general.radius}
+
+[module/test]
+type = custom/text
+#content = ${env:DEFAULT_ETHERNET:fallback}
 
 #[module/logo]
 #type = custom/text
@@ -72,29 +76,26 @@ label-separator-background = #555555
 
 [module/wired-network]
 type = internal/network
-interface = eth0
-#label-disconnected-foreground = #FF1111
-#label-disconnected = : DOWN
+interface = ${env:DEFAULT_ETHERNET:fallback}
+label-disconnected-foreground = #FF1111
+label-disconnected = : DOWN
 label-connected-foreground = #11FF11
 label-connected = : UP (%local_ip%) %linkspeed%
 
 [module/wireless-network]
 type = internal/network
-interface = wlan0
+interface = ${env:DEFAULT_WIFI:fallback}
 label-disconnected-foreground = #FF1111
 label-disconnected = 睊: DOWN
 label-connected-foreground = #11FF11
 label-connected = 直: %local_ip% on %essid%
+unknown-as-up: true
 
 [module/alsa]
-type = internal/alsa
+type = internal/pulseaudio
 
-master-soundcard = hw:0
-speaker-soundcard = hw:0
-headphone-soundcard = hw:0
-master-mixer = PCM
 
-mapped = true
+#mapped = true
 
 label-volume =  %percentage%
 label-muted =  %percentage%
