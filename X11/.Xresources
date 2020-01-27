@@ -9,7 +9,11 @@ URxvt.shading:		20
 URxvt.scrollColor:	#FF00FF
 URxvt.scrollBar:	false
 URxvt.scrollBar_right:	false
-!URxvt.background:	[25]#222222
-!URxvt.background:	rgba:2200/2200/2200/6600
-!URxvt.tintColor:	#FF00FF
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
 

@@ -1,5 +1,4 @@
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 pnmixer &
-$HOME/.fehbg
-#exec fluxbox
+~/dotfiles/wallpapers/wallpaper.set &
 exec i3

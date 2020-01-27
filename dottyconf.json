@@ -1,8 +1,8 @@
 {
 	"link" : {
+		"rofi" : "~/.config/rofi",
 		"vim/.vimrc" : "~/.vimrc",
 		"vim/.gvimrc" : "~/.gvimrc",
-		"vim/.vim" : "~/.vim",
 		"mpd" : "~/.config/mpd",
 		"picom" : "~/.config/picom",
 		"compton/compton.conf" : "~/.config/compton.conf",
