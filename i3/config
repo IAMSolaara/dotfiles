@@ -223,3 +223,6 @@ bindsym --release Print exec --no-startup-id "scrot -e 'mv $f ~/Screenshots/%Y-%
 
 #bind mod+d for rofi --lorecast162
 bindsym $mod+d exec rofi -show run
+
+#bind mod+tab for rofi window switcher --lorecast162
+bindsym $mod+Tab exec rofi -show window
