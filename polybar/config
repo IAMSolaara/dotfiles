@@ -18,7 +18,7 @@ tray-position = left
 [bar/bottom]
 font-0 = ${lorecast162-general.font-0}
 modules-left = mpd-left
-modules-center = mpd-center
+modules-center = mpd-center getdefaultethernet getdefaultwifi
 modules-right = mpd-right
 separator = ${lorecast162-general.separator}
 bottom = true
@@ -27,26 +27,28 @@ radius = ${lorecast162-general.radius}
 [module/test]
 type = custom/text
 #content = ${env:DEFAULT_ETHERNET:fallback}
-
-#[module/logo]
-#type = custom/text
-#content = 
+#content = ${module/getdefaultwifi.label:fallback}
 
 [module/logo]
-type = custom/menu
+type = custom/text
+content = 
+click-left = exec rofiPoweroff.sh
 
-menu-0-0 = Chromium
-menu-0-0-exec = chromium &
-menu-0-1 = Power
-menu-0-1-exec = menu-open-1
-
-menu-1-0 = Shutdown
-menu-1-0-exec = poweroff
-menu-1-1 = Reboot
-menu-1-1-exec = reboot
-
-label-open = 
-label-separator = |
+#[module/logo]
+#type = custom/menu
+#
+#menu-0-0 = Chromium
+#menu-0-0-exec = chromium &
+#menu-0-1 = Power
+#menu-0-1-exec = menu-open-1
+#
+#menu-1-0 = Shutdown
+#menu-1-0-exec = poweroff
+#menu-1-1 = Reboot
+#menu-1-1-exec = reboot
+#
+#label-open = 
+#label-separator = |
 
 [module/date]
 type = internal/date
@@ -177,3 +179,13 @@ format-paused = 遼 <label-song>
 format-stopped = <label-song>
 
 label-song = %artist% - %title%
+
+[module/getdefaultwifi]
+type = custom/script
+
+exec = $HOME/.config/polybar/getwifi.sh
+
+[module/getdefaultethernet]
+type = custom/script
+
+exec = $HOME/.config/polybar/getethernet.sh
