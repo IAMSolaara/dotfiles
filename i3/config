@@ -184,7 +184,11 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id $HOME/.config/i3/monitors.sh
 
 #Start picom --lorecast162d
+<<<<<<< HEAD
 exec --no-startup-id picom
+=======
+exec --no-startup-id picom &
+>>>>>>> aad4c79501e8c960b1b5bd11c81334d8fe577ee7
 
 #Start polybar --lorecast162
 exec_always --no-startup-id $HOME/.config/polybar/polybar.sh
@@ -192,9 +196,6 @@ exec_always --no-startup-id $HOME/.config/polybar/polybar.sh
 #Hide borders --lorecast162
 for_window [class=^.*"] border pixel 2
 new_window pixel 2
-
-#Set wallpaper --lorecast162
-#exec_always --no-startup-id feh --bg-fill $HOME/bg.png
 
 #Set gaps --lorecast162
 gaps outer 5
