@@ -7,11 +7,7 @@ font-0 = "MesloLGS Nerd Font:size=13;0"
 
 [bar/top]
 font-0 = ${lorecast162-general.font-0}
-<<<<<<< HEAD
 modules-right = fs wired-network wireless-network alsa
-=======
-modules-right = fs  wired-network  wireless-network  alsa
->>>>>>> 0473360bdbf8ab17f67f1be83fd60673937cef40
 modules-center = date test
 modules-left = logo i3
 separator = ${lorecast162-general.separator}
@@ -28,12 +24,11 @@ separator = ${lorecast162-general.separator}
 bottom = true
 radius = ${lorecast162-general.radius}
 
-<<<<<<< HEAD
 [module/test]
 type = custom/text
 #content = ${env:DEFAULT_ETHERNET:fallback}
 #content = ${module/getdefaultwifi.label:fallback}
-=======
+
 [module/sep-left]
 type = custom/text
 content = 
@@ -46,14 +41,6 @@ content = 
 type = custom/text
 content = |
 
-[module/test]
-type = custom/text
-#content = ${env:DEFAULT_ETHERNET:fallback}
-
-#[module/logo]
-#type = custom/text
-#content = 
->>>>>>> 0473360bdbf8ab17f67f1be83fd60673937cef40
 
 [module/logo]
 type = custom/text
@@ -110,11 +97,7 @@ type = internal/network
 interface = ${env:DEFAULT_ETHERNET:fallback}
 label-disconnected-foreground = #FF1111
 label-disconnected = : DOWN
-<<<<<<< HEAD
-label-connected-foreground = #11FF11
-=======
 label-connected-foreground = #E123E5
->>>>>>> 0473360bdbf8ab17f67f1be83fd60673937cef40
 label-connected = : UP (%local_ip%) %linkspeed%
 
 [module/wireless-network]

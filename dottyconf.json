@@ -12,11 +12,8 @@
 		"gtk-2.0" : "~/.config/gtk-2.0",
 		"polybar" : "~/.config/polybar",
 		"i3" : "~/.config/i3",
-<<<<<<< HEAD
 		"rofi" : "~/.config/rofi",
-=======
 		"cava" : "~/.config/cava",
->>>>>>> 0473360bdbf8ab17f67f1be83fd60673937cef40
 		"X11/.fehbg" : "~/.fehbg",
 		"X11/.xinitrc" : "~/.xinitrc",
 		"X11/.Xresources" : "~/.Xresources",

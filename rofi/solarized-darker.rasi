@@ -27,11 +27,7 @@
     green: #859900;
 
     /* Solarized Darker Theme */
-<<<<<<< HEAD
     transparent-background: rgba ( 0, 0, 0, 20 % );
-=======
-    transparent-background: rgba ( 0, 0, 0, 0 % );
->>>>>>> 0473360bdbf8ab17f67f1be83fd60673937cef40
     foreground:                  @magenta;
     background:                  rgba ( 0, 0, 0, 90 % );
 
