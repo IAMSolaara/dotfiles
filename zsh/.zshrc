@@ -1,4 +1,3 @@
-export PATH=$HOME/.local/bin:/usr/local/bin:$HOME/n64sdk/tools/bin:/opt/gbdk/bin:/opt/gbxcart:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 CASE_SENSITIVE="true"

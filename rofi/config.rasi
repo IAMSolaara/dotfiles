@@ -44,7 +44,11 @@ configuration {
 /*	separator-style: "dash";*/
 /*	hide-scrollbar: false;*/
 /*	fullscreen: false;*/
+<<<<<<< HEAD
 	fake-transparency: false;
+=======
+	fake-transparency: true;
+>>>>>>> 0473360bdbf8ab17f67f1be83fd60673937cef40
 /*	dpi: -1;*/
 /*	threads: 0;*/
 /*	scrollbar-width: 8;*/
