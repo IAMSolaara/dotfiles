@@ -226,3 +226,4 @@ bindsym $mod+d exec rofi -show run
 
 #bind mod+tab for rofi window switcher --lorecast162
 bindsym $mod+Tab exec rofi -show window
+

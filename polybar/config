@@ -94,7 +94,7 @@ type = internal/network
 interface = ${env:DEFAULT_ETHERNET:fallback}
 label-disconnected-foreground = #FF1111
 label-disconnected = : DOWN
-label-connected-foreground = #11FF11
+label-connected-foreground = #E123E5
 label-connected = : UP (%local_ip%) %linkspeed%
 
 [module/wireless-network]
@@ -102,7 +102,7 @@ type = internal/network
 interface = ${env:DEFAULT_WIFI:fallback}
 label-disconnected-foreground = #FF1111
 label-disconnected = 睊: DOWN
-label-connected-foreground = #11FF11
+label-connected-foreground = #E123E5
 label-connected = 直: %local_ip% on %essid%
 unknown-as-up: true
 
