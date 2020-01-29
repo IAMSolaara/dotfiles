@@ -8,7 +8,7 @@ font-0 = "MesloLGS Nerd Font:size=13;0"
 [bar/top]
 font-0 = ${lorecast162-general.font-0}
 modules-right = fs wired-network wireless-network alsa
-modules-center = date test
+modules-center = date
 modules-left = logo i3
 separator = ${lorecast162-general.separator}
 bottom = false
@@ -18,7 +18,7 @@ tray-position = left
 [bar/bottom]
 font-0 = ${lorecast162-general.font-0}
 modules-left = mpd-left
-modules-center = mpd-center getdefaultethernet getdefaultwifi
+modules-center = mpd-center 
 modules-right = mpd-right
 separator = ${lorecast162-general.separator}
 bottom = true
