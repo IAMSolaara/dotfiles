@@ -5,3 +5,4 @@ plugins=(git command-not-found zsh-syntax-highlighting zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 export PATH=$PATH
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+POWERLEVEL9K_DISABLE_GITSTATUS=true
