@@ -18,6 +18,7 @@
 		"X11/.xinitrc" : "~/.xinitrc",
 		"X11/.Xresources" : "~/.Xresources",
 		"X11/.Xmodmap" : "~/.Xmodmap",
+		"twmn" : "~/.config/twmn",
 		"xsettingsd/.xsettingsd" : "~/.xsettingsd",
 		"zsh/.zshrc" : "~/.zshrc",
 		"zsh/.zprofile" : "~/.zprofile",
