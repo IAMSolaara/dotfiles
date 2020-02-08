@@ -2,5 +2,5 @@
 	path = dotty
 	url = https://github.com/vibhavp/dotty
 [submodule "dotfilesVIM"]
-	path = dotfilesVIM
+	path = vim
 	url = git@github.com:lorecast162/dotfilesVIM
