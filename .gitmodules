@@ -7,3 +7,6 @@
 [submodule "vim"]
 	path = vim
 	url = git@github.com:lorecast162/dotfilesVIM
+[submodule "rofi"]
+	path = rofi
+	url=git@github.com:lorecast162/dotfilesROFI
