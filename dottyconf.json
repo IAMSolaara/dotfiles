@@ -1,8 +1,6 @@
 {
 	"link" : {
 		"rofi" : "~/.config/rofi",
-		"vim/.vimrc" : "~/.vimrc",
-		"vim/.gvimrc" : "~/.gvimrc",
 		"mpd" : "~/.config/mpd",
 		"picom" : "~/.config/picom",
 		"compton/compton.conf" : "~/.config/compton.conf",
@@ -26,10 +24,5 @@
 		"zsh/.p10k.zsh" : "~/.p10k.zsh",
 		"tmux/.tmux.conf" : "~/.tmux.conf",
 		"screen/.screenrc" : "~/.screenrc"
-	},
-	
-	"commands" : [
-		"git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim",
-		"vim -c PluginInstall"
-	]
+	}
 }
