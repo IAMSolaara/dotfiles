@@ -1,48 +1,45 @@
 [submodule "dotty"]
 	path = dotty
 	url = https://github.com/vibhavp/dotty
-[submodule "vim/.vim/bundle/Vundle.vim"]
-	path = vim/.vim/bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "vim"]
 	path = vim
-	url = git@github.com:lorecast162/dotfilesVIM
+	url = https://github.com/lorecast162/dotfilesVIM
 [submodule "rofi"]
 	path = rofi
-	url = git@github.com:lorecast162/dotfilesROFI
+	url = https://github.com/lorecast162/dotfilesROFI
 [submodule "zsh"]
 	path = zsh
-	url = git@github.com:lorecast162/dotfilesZSH
+	url = https://github.com/lorecast162/dotfilesZSH
 [submodule "mpd"]
 	path = mpd
-	url = git@github.com:lorecast162/dotfilesMPD
+	url = https://github.com/lorecast162/dotfilesMPD
 [submodule "picom"]
 	path = picom
-	url = git@github.com:lorecast162/dotfilesPICOM
+	url = https://github.com/lorecast162/dotfilesPICOM
 [submodule "ranger"]
 	path = ranger
-	url = git@github.com:lorecast162/dotfilesRANGER
+	url = https://github.com/lorecast162/dotfilesRANGER
 [submodule "screen"]
 	path = screen
-	url = git@github.com:lorecast162/dotfilesSCREEN
+	url = https://github.com/lorecast162/dotfilesSCREEN
 [submodule "scripts"]
 	path = scripts
-	url = git@github.com:lorecast162/dotfilesSCRIPTS
+	url = https://github.com/lorecast162/dotfilesSCRIPTS
 [submodule "sounds"]
 	path = sounds
-	url = git@github.com:lorecast162/dotfilesSOUNDS
+	url = https://github.com/lorecast162/dotfilesSOUNDS
 [submodule "tmux"]
 	path = tmux
-	url = git@github.com:lorecast162/dotfilesTMUX
+	url = https://github.com/lorecast162/dotfilesTMUX
 [submodule "twmn"]
 	path = twmn
-	url = git@github.com:lorecast162/dotfilesTWMN
+	url = https://github.com/lorecast162/dotfilesTWMN
 [submodule "wal"]
 	path = wal
-	url = git@github.com:lorecast162/dotfilesWAL
+	url = https://github.com/lorecast162/dotfilesWAL
 [submodule "X11"]
 	path = X11
-	url = git@github.com:lorecast162/dotfilesX11
+	url = https://github.com/lorecast162/dotfilesX11
 [submodule "xsettingsd"]
 	path = xsettingsd
-	url = git@github.com:lorecast162/dotfilesXSETTINGSD
+	url = https://github.com/lorecast162/dotfilesXSETTINGSD
