@@ -16,3 +16,6 @@
 [submodule "twmn"]
 	path = twmn
 	url = https://github.com/lorecast162/dotfilesTWMN
+[submodule "i3"]
+	path = i3
+	url = https://github.com/lorecast162/dotfilesI3-GAPS
