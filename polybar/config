@@ -1,28 +1,40 @@
 [lorecast162-general]
 width = 90%
 offset-x = 5%
-radius = 0.5
+radius = 10
 separator = |
 font-0 = "MesloLGS Nerd Font:size=13;0"
+padding = 1
+
+[colors]
+background = #cc440044
+foreground = #ffffff
+transparent = #00000000
 
 [bar/top]
+padding = ${lorecast162-general.padding}
+background = ${colors.background}
 font-0 = ${lorecast162-general.font-0}
 modules-right = fs wired-network wireless-network alsa battery
 modules-center = date test
 modules-left = logo i3
 separator = ${lorecast162-general.separator}
 bottom = false
-radius = ${lorecast162-general.radius}
+radius-bottom = ${lorecast162-general.radius}
+radius-top = 0
 tray-position = left
 
 [bar/bottom]
+padding = ${lorecast162-general.padding}
+background = ${colors.background}
 font-0 = ${lorecast162-general.font-0}
 modules-left = mpd-left
 modules-center = mpd-center getdefaultethernet getdefaultwifi
 modules-right = mpd-right
 separator = ${lorecast162-general.separator}
 bottom = true
-radius = ${lorecast162-general.radius}
+radius-top = ${lorecast162-general.radius}
+radius-bottom = 0
 
 [module/test]
 type = custom/text
@@ -33,22 +45,6 @@ type = custom/text
 type = custom/text
 content = 
 click-left = exec rofiPoweroff.sh
-
-#[module/logo]
-#type = custom/menu
-#
-#menu-0-0 = Chromium
-#menu-0-0-exec = chromium &
-#menu-0-1 = Power
-#menu-0-1-exec = menu-open-1
-#
-#menu-1-0 = Shutdown
-#menu-1-0-exec = poweroff
-#menu-1-1 = Reboot
-#menu-1-1-exec = reboot
-#
-#label-open = 
-#label-separator = |
 
 [module/date]
 type = internal/date
@@ -165,8 +161,8 @@ bar-progress-width = 20
 bar-progress-indicator = ▶
 bar-progress-fill = ■
 bar-progress-empty = ■  
-bar-progress-empty-foreground = ${self.bar-progress-empty-background}
-bar-progress-empty-background = #000000
+bar-progress-empty-background = ${colors.background}
+bar-progress-empty-foreground = ${colors.transparent}
 
 [module/mpd-center]
 type = internal/mpd

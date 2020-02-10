@@ -4,3 +4,15 @@
 [submodule "dotfilesVIM"]
 	path = vim
 	url = git@github.com:lorecast162/dotfilesVIM
+[submodule "picom"]
+	path = picom
+	url = https://github.com/lorecast162/dotfilesPICOM
+[submodule "zsh"]
+	path = zsh
+	url = https://github.com/lorecast162/dotfilesZSH
+[submodule "rofi"]
+	path = rofi
+	url = https://github.com/lorecast162/dotfilesROFI
+[submodule "twmn"]
+	path = twmn
+	url = https://github.com/lorecast162/dotfilesTWMN
