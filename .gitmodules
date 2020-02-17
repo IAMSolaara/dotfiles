@@ -43,3 +43,6 @@
 [submodule "xsettingsd"]
 	path = xsettingsd
 	url = https://github.com/lorecast162/dotfilesXSETTINGSD
+[submodule "polybar"]
+	path = polybar
+	url = https://github.com/lorecast162/dotfilesPOLYBAR
