@@ -4,4 +4,5 @@ $HOME/.fehbg
 #exec fluxbox
 udiskie -t -n -A &
 twmnd &
+sxhkd -c $HOME/.config/sxhkd/sxhkdrc  &
 exec i3
