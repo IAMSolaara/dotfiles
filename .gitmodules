@@ -49,3 +49,6 @@
 [submodule "sxhkd"]
 	path = sxhkd
 	url = https://github.com/lorecast162/dotfilesSXHKD
+[submodule "i3"]
+	path = i3
+	url = https://github.com/lorecast162/dotfilesI3
