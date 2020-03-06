@@ -46,3 +46,6 @@
 [submodule "polybar"]
 	path = polybar
 	url = https://github.com/lorecast162/dotfilesPOLYBAR
+[submodule "sxhkd"]
+	path = sxhkd
+	url = https://github.com/lorecast162/dotfilesSXHKD
